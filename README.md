@@ -4,7 +4,7 @@ avida assembly is inspired by Avida (github.com/devosoft/avida/)
 notation is borrowed from the Avida wiki on GitHub
 ?BX? and ?CX? indicate default register that can be changed with a nop_ immediately following
 the complement, or ~, of a nop is the following nop, looping at the end
-#   inst    effect
+Instructions
 a   nopa    do nothing, AX, IP, label a
 b   nopb    do nothing, BX, RH, label b
 c   nopc    do nothing, CX, WH, label c
