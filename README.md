@@ -1,10 +1,11 @@
+```
 relativistic avidans are points with mass obeying relativistic mechanics
 they execute avida assembly at constant speed in their frame of reference
 avida assembly is inspired by Avida (github.com/devosoft/avida/)
 notation is borrowed from the Avida wiki on GitHub
 ?BX? and ?CX? indicate default register that can be changed with a nop_ immediately following
 the complement, or ~, of a nop is the following nop, looping at the end
-Instructions
+#   inst    effect
 a   nopa    do nothing, AX, IP, label a
 b   nopb    do nothing, BX, RH, label b
 c   nopc    do nothing, CX, WH, label c
@@ -31,3 +32,4 @@ w   jmph    move ?IP? by CX
 x   geth    copy value of ?IP? to CX
 y   iflbl   execute next(+n) if WH is immediately preceded by ~ of label(s) following
 z   setf    move FH to ?CX?
+```
